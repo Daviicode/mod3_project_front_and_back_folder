@@ -7,6 +7,8 @@ const imageOrVideo = document.querySelector('#image-or-video')
 let exerciseArray = []
 console.log(imageOrVideo)
 
+// OPEN newIndex.html to open in browser
+
 fetch(bodyPartsURL)
   .then(res => res.json())
   .then(data => {
